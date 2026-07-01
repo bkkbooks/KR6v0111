@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR6v0111/v1
+canonical_location: https://kanripo.org/bkk/KR6v0111/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 照明菩薩經
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW10/ZW10n0084.xml
+    old_id: ZW10n0084
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0111_000.yaml, hash: 'sha256:bb6d582cb0814c3d9ab3db22695b707482fcc95a8f6a928eee4ead4e748b9ed4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0111_000.markers.yaml, hash: 'sha256:5d7490d7bd9adc205467f92d471f17a8ed1169ade83b1c43f28743c6b18a4315'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6v0111_ZW_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 題解
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6v0111_ZW_000-mulu-2
+    span:
+    - front
+    - 546
+    - 546
+  label: 錄文
+  type: mulu
+  level: 1
+hash: sha256:8731e14420f28001a02c9453995905fffdfb999f7ce5be759eddb4c8fc456b29
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: ZW

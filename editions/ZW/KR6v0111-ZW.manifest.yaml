@@ -1,0 +1,46 @@
+canonical_identifier: bkk:krp/KR6v0111/ZW/v1
+canonical_location: https://kanripo.org/bkk/KR6v0111/ZW/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 照明菩薩經
+  identifiers:
+    krp: KR6v0111
+    cbeta: ZW10n0084
+    cbeta_old_id: ZW10n0084
+    authorityid: CA0008528
+    json_key: ZW0084
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW10/ZW10n0084.xml
+    old_id: ZW10n0084
+  edition:
+    short: ZW
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0111_000-ZW.yaml, hash: 'sha256:e817b625b59ce61db96debc0314da0051032887b129cad309a141d59aa344154'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0111_000-ZW.markers.yaml, hash: 'sha256:84a79ca66d513d05db0f6c0a1a4b176ed6d61767764a02ea5c7f7a924bc8fd8f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6v0111_ZW_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 題解
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6v0111_ZW_000-mulu-2
+    span:
+    - front
+    - 546
+    - 546
+  label: 錄文
+  type: mulu
+  level: 1
+hash: sha256:80f0c9eabfc13e12204f5b7be202edfc012759f6f8f110107dc5e0f58dd11e43
